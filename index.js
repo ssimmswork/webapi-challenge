@@ -12,3 +12,9 @@ I need this code, just don't know where, perhaps should make some middleware, do
 
 Go code!
 */
+
+const server = require('./server.js');
+
+server.listen(8000, () => {
+    console.log(`\n* API running on locahost 8000`);
+})
