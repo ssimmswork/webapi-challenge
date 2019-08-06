@@ -4,8 +4,7 @@ const projectsdb = require("../data/helpers/projectModel");
 
 
 router.get("/", (req,res)=> {
-    console.log("inside the get at root PROJECTS")
-    projectsdb.get()
+     projectsdb.get()
     .then(projects => {
         res.status(200).json(projects);
     })
@@ -15,7 +14,6 @@ router.get("/", (req,res)=> {
 });
 
 router.get("/:id", validateProjectId, (req,res)=> {
-    console.log("inside the get by ID PROJECTS")
     const id = req.params.id;
     console.log(id);
     projectsdb.get(id)
