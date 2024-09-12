@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+The first part of express was the node module. Then we learned how to use web apps.
+
 - [ ] Describe Middleware?
+
+It's a list of instructions that are executed in order. 
 
 - [ ] Describe a Resource?
 
+Information that is returned from the server endpoints.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+The API returns a code that lets us know it was successful.
+
 - [ ] How can we partition our application into sub-applications?
+
+We can use express web apps the partition the application. 
 
 ## Project Setup
 
